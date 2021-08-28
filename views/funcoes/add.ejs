@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA - ADD</title>
+
+
+</head>
+<body>
+    <h1>Insira os valores e escolha a operação que desejar:</h1>
+    <form method="post">
+        <ul class="form-style-1">
+            <li>
+               <label>Número 1: <input type="number" name="num1" placeholder="Número"><br></label>
+            </li>  
+            <li>
+              <label>Número 2: <input type="number" name="num2"  placeholder="Número"><br></label>
+            </li> 
+            <li>
+              <label>Operação: <select name="tipo" </br></label>
+              <option hidden value="nulo">Selecione</option>
+              <option value="Soma" >Soma</option>
+              <option value="Subtração" >Subtração</option>
+              <option value="Multiplicação" >Multiplicação</option>
+              <option value="Divisão" >Divisão</option>
+            </li>
+          </select> <br>
+        <li>
+           <input type="submit" name="Enviar">
+        </li>   
+        </ul>
+        
+    </form>
+
+    <style type="text/css">
+    body{
+        background-color: aquamarine;
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+    
+  #script{
+      background-color: #302F2B;
+  }
+
+ 
+h1 {
+  margin-left: 215px;
+  margin-right: 238px;
+  text-align: justify;
+  color: #075c55;
+  font: 30px "Tahoma", sans-serif;
+}
+
+.form-style-1 {
+     margin:10px auto;
+     max-width: 400px;
+     padding: 20px 12px 10px 20px;
+ }
+
+ .form-style-1 li {
+     padding: 0;
+     display: block;
+     list-style: none;
+     margin: 10px 0 0 0;
+ }
+ .form-style-1 label{
+     margin:0 0 3px 0;
+     padding:0px;
+     display:block;
+     font-weight: bold;
+     color:#075c55;
+     margin-right: 50%;
+     padding:2px;
+     list-style: none;
+     position: relative;
+     border: #075c55;
+
+ }
+
+ #num1, #num2{
+      color:#075c55;
+ }
+ .form-style-1 input[type=submit], 
+ .form-style-1 input[type=number], 
+ select{
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     border:1px solid #BEBEBE;
+     padding: 7px;
+     margin:0px;
+     outline: none;	
+     color: #075c55;
+ }
+
+ .form-style-1 
+ .form-style-1 input[type=number]:focus,
+ .form-style-1 input[type=]:focus{
+
+     -moz-box-shadow: 0 0 8px #075c55;
+     -webkit-box-shadow: 0 0 8px #075c55;
+     box-shadow: 0 0 8px #075c55;
+
+ }
+ .form-style-1 .field-divided{
+     width: 30%;
+ }
+ 
+ .form-style-1 .field-long{
+     width: 100%;
+ }
+ .form-style-1 .field-select{
+     width: 100%;
+ }
+ .form-style-1 .field-textarea{
+     height: 100px;
+ }
+ .form-style-1 input[type=submit], .form-style-1 input[type=button], button{
+     background: #075c55;
+     padding: 8px 15px 8px 15px;
+     border: none;
+     color: #fff;
+ }
+ .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover, button:hover{
+     background: #075c55;
+     box-shadow:none;
+     -moz-box-shadow:none;
+     -webkit-box-shadow:none;
+ }
+
+ .form-style-1 input select:hover, .placeholder{
+     background: #075c55;
+     color: #075c55;
+     box-shadow:none;
+     -moz-box-shadow:none;
+     -webkit-box-shadow:none;
+ }
+ 
+    </style>
+</body>
+</html> 
